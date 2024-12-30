@@ -1,12 +1,35 @@
-# boxFilterNPP - Box Filter with NPP
+# Image filtering (lowpass/highpass filtering) using NVIDIA NPP with CUDA
 
 ## Description
 
-A NPP CUDA Sample that demonstrates how to use NPP FilterBox function to perform a Box Filter.
+This project demonstrates the use of NVIDIA Performance Primitives (NPP) library with CUDA to perform image filtering. More specifically, the goal is to utilize GPU acceleration to efficiently filter a given image through a lowpass filter (for example, Gaussian filter) and a high pass filter, leveraging the computational power of modern GPUs. The project is a part of the CUDA at Scale for the Enterprise course and serves as a example for understanding how to implement basic image processing operations using CUDA and NPP.
 
 ## Key Concepts
 
 Performance Strategies, Image Processing, NPP Library
+
+## Code Organization
+
+```bin/```
+This folder hold all binary/executable code that is built automatically.
+
+```data/```
+This folder should hold all example images in `*.pgm` format.
+
+```lib/```
+This folder includes extra library dependency.
+
+```src/```
+This folder includes source code.
+
+```README.md```
+This file should hold the description of the project so that anyone cloning or deciding if they want to clone this repository can understand its purpose to help with their decision.
+
+```Makefile or CMAkeLists.txt or build.sh```
+There should be some rudimentary scripts for building your project's code in an automatic fashion.
+
+```run.sh```
+An optional script used to run your executable code, either with or without command-line arguments.
 
 ## Supported SM Architectures
 
