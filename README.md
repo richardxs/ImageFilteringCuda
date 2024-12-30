@@ -2,7 +2,9 @@
 
 ## Description
 
-This project demonstrates the use of NVIDIA Performance Primitives (NPP) library with CUDA to perform image filtering. More specifically, the goal is to utilize GPU acceleration to efficiently filter a given image through a lowpass filter (for example, Gaussian filter) and a high pass filter, leveraging the computational power of modern GPUs. The project is a part of the CUDA at Scale for the Enterprise course and serves as a example for understanding how to implement basic image processing operations using CUDA and NPP.
+This project demonstrates the use of NVIDIA Performance Primitives (NPP) library with CUDA to perform image filtering. More specifically, the goal is to utilize GPU acceleration to efficiently filter a given image through a lowpass filter (for example, Gaussian filter) and a high pass filter, leveraging the computational power of modern GPUs. While the lowpass filter (e.g., Gaussian filter) smooths the image by removing the high-frequency details, the highpass filter will keep those details. Comparing the lowpass/highpass filtered results of a series of example images (i.e., `Lena`, `tree`, `couple`, `girl`, `woman`), I have learned the drastic differences in effects of the two filters. 
+
+The project is a part of the CUDA at Scale for the Enterprise course and serves as a example for understanding how to implement basic image processing operations using CUDA and NPP.
 
 ## Key Concepts
 
