@@ -14,7 +14,7 @@ Performance Strategies, Image Processing, NPP Library
 This folder hold all binary/executable code that is built automatically.
 
 ```data/```
-This folder should hold all example images in `*.pgm` format.
+This folder should hold all example images in `*.pgm` format(original and lowpass/highpass filtered).
 
 ```lib/```
 This folder includes extra library dependency.
